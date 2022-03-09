@@ -1,0 +1,1348 @@
+body {
+  background: #fff;
+  color: #303540;
+  overflow-x: hidden;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.plus {
+  font-size: 2.5em;
+}
+
+.br_on {
+  display: none;
+}
+
+.br_on_12 {
+  display: none;
+}
+
+.br_on_12_1 {
+  display: none;
+}
+
+.br_on_1024 {
+  display: none;
+}
+
+.br_on_768 {
+  display: none;
+}
+
+.br_on_375 {
+  display: none;
+}
+
+.br_on_576 {
+  display: none;
+}
+
+.navbar .logo {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.banner {
+  background-image: url("../images/top.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner .container {
+  padding: 10%;
+  color: white;
+}
+.banner .container p {
+  font-size: 2em;
+}
+
+.section01 {
+  background: #fff9ee;
+  padding: 5vh 0;
+}
+.section01 .container h2.top {
+  font-size: 2.1em;
+}
+.section01 .container h2.top span {
+  font-size: 1.35em;
+}
+.section01 .container h2.top.intro {
+  line-height: 2em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.section01 .container h2.top.intro-2 {
+  font-size: 1.9em;
+  line-height: 1.5em;
+}
+.section01 .container table {
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section01 .container table .title {
+  padding: 10px;
+  text-decoration: underline;
+}
+.section01 .container h5 {
+  font-size: 2.5em;
+}
+.section01 .container .intro-text {
+  margin: 120px auto;
+}
+.section01 .container .intro-text h6 {
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section01 .container .intro-text h6 span {
+  font-size: 1.5em;
+  padding: 0 5px;
+}
+.section01 .container .intro-text h4 {
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  line-height: 2em;
+}
+.section01 .container .intro-text h4 span {
+  font-size: 1.5em;
+}
+.section01 .container .voices {
+  margin: 6vh auto;
+}
+.section01 .container .voices h4 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.section01 .container .voices .stylists {
+  background: whitesmoke;
+  box-shadow: 1px 3px 3px #303540;
+  margin: 4vh auto;
+}
+.section01 .container .voices .stylists h5 {
+  font-size: 1.25em;
+}
+.section01 .container .voices .stylists p {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+.section01 .container .voices .stylists blockquote {
+  padding: 10px;
+  background: rgba(66, 66, 66, 0.3);
+}
+.section01 .intro-text-out {
+  padding: 0 20px;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section01 .intro-text-out span {
+  font-size: 1.5em;
+  color: #bd4929;
+}
+
+.sect-middle1 .asia-inpitari {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.sect-middle1 .asia-inpitari h3 {
+  text-align: center;
+  margin-top: 4vh;
+}
+.sect-middle1 .asia-inpitari h5 {
+  font-size: 1.25em;
+  margin-top: 4vh;
+}
+.sect-middle1 .asia-inpitari .characteristics {
+  padding: 3vh 5vw;
+}
+.sect-middle1 .asia-inpitari .characteristics p {
+  text-align: center;
+  line-height: 2em;
+  border: 1px solid rgba(241, 241, 241, 0.33);
+  padding: 30px 20px;
+  background: #fff9ee;
+  box-shadow: 1px 3px 2px rgba(110, 110, 110, 0.5);
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.sect-middle1 .asia-inpitari .characteristics p span {
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 0 5px;
+}
+.sect-middle1 .asia-inpitari .box {
+  margin: 0 auto;
+}
+.sect-middle1 .asia-inpitari .box h6 {
+  font-weight: bold;
+}
+.sect-middle1 .asia-inpitari .box h5 {
+  font-size: 1.25em;
+  margin-top: 2vh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+.sect-middle1 .asia-inpitari .box h5 span {
+  padding-bottom: 3px;
+  background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+  background-position: 0 100%;
+  background-size: 100% 3px;
+  background-repeat: repeat-x;
+}
+.sect-middle1 .asia-inpitari .box .underline {
+  background-repeat: repeat-x;
+}
+.sect-middle1 .asia-inpitari .box .recommend p span {
+  font-size: 1em;
+  padding: 5px 10px;
+  background: black;
+  color: #fff;
+}
+.sect-middle1 .asia-inpitari .box .recommend ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sect-middle1 .asia-inpitari .box .recommend ul li {
+  font-size: 1em;
+  display: inline-block;
+}
+.sect-middle1 .asia-inpitari .box .recommend ul li i {
+  margin-right: 10px;
+}
+.sect-middle1 .asia-inpitari .box .smooth {
+  border: 2px solid #4EA16A;
+  padding: 10px 20px;
+}
+.sect-middle1 .asia-inpitari .box .moist {
+  border: 2px solid #D46E4C;
+  padding: 10px 20px;
+}
+.sect-middle1 .asia-inpitari .smoothItems,
+.sect-middle1 .asia-inpitari .moistItems {
+  padding: 20px;
+}
+.sect-middle1 .asia-inpitari .smoothItems {
+  background: white;
+  background: linear-gradient(180deg, white 0%, white 32%, #4b9b68 40%, #72d985 60%, white 68%, white 100%);
+}
+.sect-middle1 .asia-inpitari .moistItems {
+  background: white;
+  background: linear-gradient(180deg, white 0%, white 32%, #cd5d38 40%, #f1b4a0 60%, white 68%, white 100%);
+}
+.sect-middle1 .asia-inpitari .asia-products img {
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.sect-middle1 .asia-inpitari .link-to-ifing-beauty {
+  margin: 10vh auto;
+  text-align: center;
+}
+.sect-middle1 .asia-inpitari .link-to-ifing-beauty a {
+  padding: 10px 20px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  background: #fcecde;
+  color: #424242;
+  text-decoration: none;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+.sect-middle1 .asia-inpitari .link-to-ifing-beauty a:hover {
+  color: #000;
+  font-weight: bold;
+  background: #f1cdae;
+}
+.sect-middle1 .instagram {
+  background: #ccb0b0;
+  background: linear-gradient(60deg, #ccb0b0 0%, #e6e6e6 100%);
+}
+.sect-middle1 .instagram a:hover {
+  opacity: 0.8;
+}
+
+.sect-middle {
+  padding: 10vh 0;
+  background: #212531;
+  background: linear-gradient(to right bottom, #fff 50%, #f5f5dc 50%);
+}
+.sect-middle h3 {
+  font-size: 2.5em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.section02 {
+  padding: 10vh 0;
+  background: #212531;
+  background: linear-gradient(to left bottom, #f3c29d 50%, #fce6d4 50%);
+}
+.section02 .intro-table table {
+  box-shadow: 1px 3px 3px #9a9a9a;
+  margin-bottom: 2vh;
+}
+.section02 .intro-table table .left {
+  background: #f4cb60;
+  color: #fff;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+.section02 .intro-table table .right {
+  background: #fff;
+  font-size: 2em;
+  padding: 20px 80px;
+}
+.section02 .intro-table h3 {
+  line-height: 1.5em;
+  text-align: center;
+  margin: 80px auto 40px;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section02 .info-01 h3.title {
+  margin: 20px auto 0;
+  font-size: 2em;
+  text-decoration: underline;
+}
+.section02 .info-01 .key-ingredient {
+  padding: 20px;
+  margin-top: 60px;
+}
+.section02 .info-01 .key-ingredient .ingredient {
+  padding: 10px;
+  margin: 10px auto 30px;
+  border: 1px solid #d3d3d3;
+  background: white;
+}
+.section02 .info-01 .key-ingredient .ingredient h3 {
+  font-size: 2em;
+  background: #5e5e5e;
+}
+.section02 .info-01 .key-ingredient .ingredient h3 span {
+  color: #fff;
+  padding: 10px 30px;
+}
+.section02 .info-01 .key-ingredient .ingredient p {
+  font-size: 1.25em;
+}
+.section02 .info-01 .comp {
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.section02 .info-01 .comp .ingredient {
+  padding: 10px;
+  margin: 10px auto 30px;
+  border: 1px solid #d3d3d3;
+  background: white;
+}
+.section02 .info-01 .comp .ingredient h3 {
+  font-size: 2em;
+  background: #5e5e5e;
+  background: #f4cb60;
+}
+.section02 .info-01 .comp .ingredient h3 span {
+  color: #fff;
+  padding: 10px 30px;
+}
+.section02 .info-01 .comp .ingredient p {
+  font-size: 1.25em;
+}
+.section02 .info-01 .comp p.pt {
+  font-size: 1.5em;
+  padding: 0;
+}
+.section02 .info-01 .text-area1 {
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section02 .info-01 .text-area1 h3 {
+  margin: 40px auto;
+  line-height: 2em;
+}
+.section02 .info-01 .text-area1 h3 span {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.section02 .info-01 .text-area1 h4 {
+  margin: 20px auto;
+  line-height: 3em;
+}
+.section02 .info-01 .text-area1 h4 span {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.section02 .info-01 .text-area1 h4 span.main {
+  color: #bd4929;
+}
+.section02 .info-02 h5 {
+  font-size: 2em;
+}
+.section02 .info-02 h4.widen-text {
+  margin: 80px auto;
+  font-size: 2em;
+}
+.section02 .info-02 .information h3.strength {
+  margin: 100px auto;
+  line-height: 1.5em;
+  color: #303540;
+  font-size: 3em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section02 .info-02 .information .info-inner h4 {
+  color: aqua;
+}
+.section02 .info-02 .information .info-inner .damage-info h5 {
+  font-size: 1.5em;
+}
+.section02 .info-02 .information .info-inner .damage-info .info-table {
+  margin: 0 auto;
+}
+.section02 .info-02 .information .info-inner .damage-info .info-table table {
+  font-size: 1.5em;
+  width: 100%;
+}
+.section02 .info-02 .information .info-inner .damage-info .info-table table .r-head {
+  background: #a8bfaf;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border: 1px solid #9a9a9a;
+}
+.section02 .info-02 .information .info-inner .damage-info .info-table table .r-content {
+  background: #fff;
+  padding: 5px 20px;
+  border: 1px solid #9a9a9a;
+}
+.section02 .info-02 .information .info-inner .damage-info .highlight-text {
+  color: #fff;
+  width: 100%;
+  margin: 0px 0 50px;
+  background: #a8bfaf;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+.section02 .info-02 .information .info-inner .damage-info2 .sect02-table {
+  margin: 0 auto;
+}
+.section02 .info-02 .information .info-inner .damage-info2 table {
+  width: 100%;
+}
+.section02 .info-02 .information .info-inner .damage-info2 table .title,
+.section02 .info-02 .information .info-inner .damage-info2 table .content {
+  border: 1px solid #9a9a9a;
+  font-size: 1.25em;
+  text-align: center;
+}
+.section02 .info-02 .information .info-inner .damage-info2 table .title {
+  padding: 10px 20px;
+  color: white;
+  font-size: 1.5em;
+  background: #f2c456;
+}
+.section02 .info-02 .information .info-inner .damage-info2 table .content {
+  background: #fff;
+  padding: 20px;
+  font-size: 1.5em;
+}
+.section02 .info-02 .information .info-inner .damage-info2 .highlight-text {
+  background: #f2c556;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+.section02 .info-02 .information .info-inner .before-after {
+  margin: 80px auto;
+}
+.section02 .info-02 .information .info-inner .bottom-text {
+  text-align: center;
+  margin: 80px auto;
+  background: #fff;
+  padding: 20px 30px;
+}
+.section02 .info-02 .information .info-inner .bottom-text h4 {
+  font-size: 1.75em;
+  color: #303540;
+  margin-top: 40px;
+  line-height: 2em;
+}
+.section02 .info-02 .information .info-inner .bottom-text h4 span {
+  font-size: 1.5em;
+}
+.section02 .info-02 .information .info-inner .bottom-text p {
+  font-size: 1.75em;
+}
+.section02 .info-02 .information .info-inner .bottom-text p span {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0px 5px;
+}
+
+.section03 {
+  background: #d2e1db;
+  background: linear-gradient(to right bottom, #ebf5f1 50%, #d2e1db 50%);
+  padding: 6vh 0;
+}
+.section03 .container .intro-table table {
+  box-shadow: 1px 3px 3px #9a9a9a;
+  margin-bottom: 2vh;
+}
+.section03 .container .intro-table table .left {
+  background: #f4cb60;
+  color: #fff;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+.section03 .container .intro-table table .right {
+  background: #fff;
+  font-size: 2em;
+  padding: 20px 80px;
+}
+.section03 .container .intro-table h3 {
+  margin: 80px auto;
+  line-height: 2em;
+  text-align: center;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section03 .container .intro-table .img-area {
+  margin: 20px auto;
+}
+.section03 .container .main-point {
+  margin: 120px auto;
+}
+.section03 .container .main-point .circle-sp .circle {
+  position: relative;
+  display: block;
+  margin: 2em 0;
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.section03 .container .main-point .circle-sp .circle:after {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background: #303540;
+  box-shadow: 1px 3px 3px #5e5e5e;
+  content: "";
+}
+.section03 .container .main-point .circle-sp .circle__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.section03 .container .main-point .circle-sp .circle__wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.section03 .container .main-point .circle-sp .circle__content {
+  display: table-cell;
+  padding: 1em;
+  font-size: 2em;
+  vertical-align: middle;
+}
+.section03 .container .main-point .circle-sp p {
+  font-size: 1.5em;
+  color: #303540;
+}
+.section03 .container .main-point h4 {
+  font-size: 2em;
+  margin: 80px auto;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section03 .container .main-point h3.middle-text {
+  margin: 80px auto;
+  font-weight: normal;
+}
+.section03 .container .main-point h3.middle-text span {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-right: 10px;
+  padding: 10px 10px;
+  color: #fff;
+  background: #303540;
+  font-weight: bold;
+}
+.section03 .container .main-point p.bottom-text {
+  font-size: 1.5em;
+  line-height: 3em;
+}
+.section03 .container .main-point p.bottom-text span {
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 10px;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.section04 {
+  background: #f8ddab;
+  padding: 80px 0;
+}
+.section04 .container .intro-table {
+  margin-bottom: 4vh;
+}
+.section04 .container .intro-table table {
+  box-shadow: 1px 3px 3px #9a9a9a;
+  margin-bottom: 2vh;
+}
+.section04 .container .intro-table table .left {
+  background: #f4cb60;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+.section04 .container .intro-table table .right {
+  background: #fff;
+  font-size: 2em;
+  padding: 20px 80px;
+}
+.section04 .container .intro-table h3 {
+  text-align: center;
+  margin-top: 4vh;
+}
+.section04 .container .sect04-body {
+  padding: 5vh 0;
+}
+.section04 .container .sect04-body h5 {
+  font-size: 1.75em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section04 .container .sect04-body h5 span {
+  font-size: 1.25em;
+  margin: 0 5px;
+  text-shadow: 1px 1px 3px #fff;
+}
+.section04 .container .sect04-body h4 {
+  font-size: 3em;
+}
+.section04 .container .sect04-body h3 {
+  font-size: 2em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  line-height: 2em;
+}
+.section04 .container .sect04-body h3 span {
+  font-size: 1.25em;
+  padding: 0 5px;
+  text-shadow: 1px 1px 3px #fff;
+}
+.section04 .container .sect04-body .centered-text {
+  margin: 80px auto;
+  max-width: 80%;
+  text-align: center;
+}
+.section04 .container .sect04-body .centered-text h2 span {
+  font-size: 0.8em;
+  padding: 0 5px;
+}
+.section04 .container .sect04-body .centered-text h2 em {
+  font-style: normal;
+  background: #303540;
+  color: #fff;
+  line-height: 2em;
+}
+.section04 .container .sect04-body p {
+  font-size: 1.5em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.section04 .container-fluid .product-line-up .salon-area {
+  background: linear-gradient(to right bottom, #d2e1db 50%, #f6f9f8 50%);
+}
+.section04 .container-fluid .product-line-up .salon-area .image a {
+  text-align: center;
+  padding: 10px 20px;
+  background: #303540;
+  color: #fff;
+}
+.section04 .container-fluid .product-line-up .moist-area {
+  background: linear-gradient(to right bottom, #fcdbc2 50%, #fce6d4 50%);
+}
+.section04 .container-fluid .product-line-up .moist-area .image a {
+  text-align: center;
+  padding: 10px 20px;
+  background: #303540;
+  color: #fff;
+}
+.section04 .container-fluid .product-line-up h5 {
+  font-size: 1.25em;
+}
+.section04 .container-fluid .product-line-up h5 span {
+  font-size: 1.5em;
+  line-height: 2em;
+  background: #303540;
+  color: #fff;
+  padding: 10px 20px;
+}
+.section04 .container-fluid .product-line-up .product-text .text-area {
+  font-size: 2em;
+  padding: 20px 10px;
+}
+.section04 .container-fluid .product-line-up .product-text .text-area .product-name h2.salon {
+  font-size: 1.5em;
+  color: #66a367;
+}
+.section04 .container-fluid .product-line-up .product-text .text-area .product-name h2.moist {
+  font-size: 1.5em;
+  color: #bd4929;
+}
+.section04 .container-fluid .product-line-up .product-text .text-area p {
+  padding: 10px 20px;
+  font-size: 1.25em;
+}
+.section04 .container-fluid .product-line-up .product-text .text-area small {
+  font-size: 0.9em;
+}
+
+.section05 {
+  background: #fff;
+  padding: 5vh 0;
+}
+.section05 .sect06-body {
+  width: 90%;
+  margin: 0 auto;
+}
+.section05 .sect06-body h2 {
+  font-size: 2.5em;
+  line-height: 2em;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.section-product-list h2.title {
+  font-size: 1.25em;
+  text-decoration: underline;
+}
+.section-product-list .product {
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.5);
+  margin-bottom: 4vh;
+  border-radius: 10px;
+  background: #faf9f6;
+}
+.section-product-list .product .img {
+  position: relative;
+}
+.section-product-list .product .img p {
+  position: absolute;
+  top: 0;
+  margin-top: 8px;
+  font-size: 1em;
+  background: black;
+  background: linear-gradient(60deg, black 0%, rgba(236, 236, 236, 0.5) 100%);
+  color: #fff;
+  padding: 5px 10px;
+}
+.section-product-list .product .product-info {
+  text-align: center;
+  padding: 20px 10px;
+}
+.section-product-list .product .product-info h2 {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+.section-product-list .product .product-info h3 {
+  font-size: 1.25em;
+}
+.section-product-list .product .product-info h4 {
+  font-size: 0.9em;
+}
+.section-product-list .product .product-info h4 em {
+  font-style: normal;
+}
+.section-product-list .product .product-info h5 {
+  font-size: 1.5em;
+}
+.section-product-list .product .product-info .smooth {
+  color: #4c9660;
+}
+.section-product-list .product .product-info .moist {
+  color: #bd4728;
+}
+.section-product-list .product .product-info h6 {
+  font-size: 1.25em;
+  color: #c22f2f;
+}
+.section-product-list .product .product-info h6 span {
+  font-size: 0.8em;
+}
+.section-product-list .product .product-info h6 strong {
+  font-size: 1.5em;
+}
+.section-product-list .product .product-info h6 strong em {
+  font-style: normal;
+  font-size: 0.8em;
+}
+.section-product-list .product .product-info a {
+  text-decoration: none;
+  padding: 5px 10px;
+  background: #5e5e5e;
+  color: #fff;
+}
+
+.section06 {
+  padding: 8vh 0;
+  background: #ebf5f1;
+}
+.section06 .to-links p {
+  padding: 40px 20px;
+  font-size: 2em;
+}
+.section06 .to-links p a {
+  color: white;
+  text-decoration: none;
+}
+.section06 .to-links p a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.section06 .to-links .customer {
+  background: #303540;
+}
+.section06 .to-links .salon {
+  background: #5e5e5e;
+}
+
+.footer {
+  padding-top: 20px;
+  font-size: 0.9em;
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #303540;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-item {
+  padding: 0.5em;
+  background: #efefef;
+  border: 3px solid #333;
+}
+
+@media (max-width: 1200px) {
+  .section03 .container .main-point p.bottom-text span {
+    font-size: 1.15em;
+  }
+
+  .section05 .sect06-body h2 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 1024px) {
+  .br_on_1024 {
+    display: block;
+  }
+
+  .section01 .container .intro-text h4 {
+    font-size: 1.7em;
+  }
+  .section01 .container table {
+    font-size: 1.25em;
+  }
+
+  .section02 .info-02 .information .info-inner .damage-info .info-table table .r-content {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+
+  .section06 .to-links p a {
+    font-size: 0.9em;
+  }
+
+  .section01 .container .voices blockquote {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 768px) {
+  .br_on_1024 {
+    display: none;
+  }
+
+  .br_on_768 {
+    display: block;
+  }
+
+  .section01 .container h5 {
+    font-size: 2em;
+  }
+  .section01 .container .intro-text h6 span {
+    font-size: 1em;
+  }
+  .section01 .container .intro-text h4 {
+    font-size: 1.5em;
+  }
+  .section01 .container .voices blockquote {
+    font-size: 0.9em;
+  }
+
+  .section02 .info-01 .key-ingredient .ingredient h3 {
+    font-size: 1.24em;
+    padding: 10px 0;
+  }
+  .section02 .info-01 .key-ingredient .ingredient p {
+    font-size: 1em;
+  }
+  .section02 .info-01 .comp .ingredient h3 {
+    font-size: 1.24em;
+    padding: 10px 0;
+  }
+  .section02 .info-01 .comp .ingredient p {
+    font-size: 1em;
+  }
+  .section02 .info-02 h4.widen-text {
+    font-size: 1.75em;
+  }
+  .section02 .info-02 .information h3.strength {
+    font-size: 2.5em;
+  }
+  .section02 .info-02 .information .info-inner .bottom-text h4 {
+    font-size: 1.5em;
+  }
+  .section02 .info-02 .information .info-inner .bottom-text p {
+    font-size: 1.25em;
+  }
+  .section02 .info-02 .information .info-inner .bottom-text p span {
+    font-size: 1.5em;
+  }
+
+  .section03 .container .intro-table table .right {
+    padding: 20px;
+  }
+  .section03 .container .main-point .circle-sp .circle__content {
+    font-size: 1.25em;
+  }
+  .section03 .container .main-point .circle-sp p {
+    font-size: 1em;
+  }
+  .section03 .container .main-point h4 {
+    font-size: 1.5em;
+  }
+  .section03 .container .main-point h3.middle-text {
+    font-size: 1.4em;
+    line-height: 2em;
+  }
+  .section03 .container .main-point h3.middle-text span {
+    font-size: 1.25em;
+  }
+  .section03 .container .main-point p.bottom-text span {
+    font-size: 1em;
+  }
+
+  .section04 .container .intro-table table .right {
+    padding: 20px;
+  }
+  .section04 .container .sect04-body h3 {
+    font-size: 1.5em;
+  }
+
+  .section05 .container .sect06-body h2 {
+    font-size: 1.75em;
+  }
+
+  .section06 {
+    padding: 8vh 0;
+    background: #ebf5f1;
+  }
+  .section06 .to-links p {
+    padding: 40px 20px;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 576px) {
+  .navbar .logo {
+    margin-left: 5px;
+    padding-left: 5px;
+  }
+
+  .br_on_1024 {
+    display: none;
+  }
+
+  .br_on_768 {
+    display: none;
+  }
+
+  .br_on_12 {
+    display: block;
+  }
+
+  .br_on_576 {
+    display: block;
+  }
+
+  .section01 .container h2.top {
+    font-size: 1.4em;
+    line-height: 2em;
+  }
+  .section01 .container h2.top span {
+    font-size: 1.1em;
+  }
+  .section01 .container table .title p {
+    font-size: 14px;
+  }
+  .section01 .container table p.t-a {
+    font-size: 14px;
+  }
+  .section01 .container h5 {
+    font-size: 1.25em;
+  }
+  .section01 .container .intro-text h6 {
+    font-size: 1em;
+  }
+  .section01 .container .intro-text h6 span {
+    font-size: 1.25em;
+  }
+  .section01 .container .intro-text h4 {
+    font-size: 1.1em;
+  }
+  .section01 .voices .reverse div:nth-child(1) {
+    order: 2;
+  }
+  .section01 .voices .reverse div:nth-child(2) {
+    order: 1;
+  }
+  .section01 .voices blockquote {
+    font-size: 0.9em;
+  }
+  .section01 .voices .profile-pic {
+    margin: 20px auto;
+  }
+  .section01 .voices .profile-pic img {
+    box-shadow: 1px 3px 3px #5e5e5e;
+  }
+  .section01 .intro-text-out {
+    font-size: 1em;
+  }
+
+  .sect-middle h3 {
+    font-size: 1.5em;
+  }
+
+  .section02 .intro-table table {
+    width: 100%;
+  }
+  .section02 .intro-table table .left {
+    font-size: 1em;
+    padding: 20px 10px;
+  }
+  .section02 .intro-table table .right {
+    padding: 20px 5px;
+    font-size: 1em;
+  }
+  .section02 .intro-table h3 {
+    font-size: 1.5em;
+  }
+  .section02 .info-01 h3.title {
+    font-size: 1.75em;
+  }
+  .section02 .info-01 .text-area1 h3 {
+    font-size: 1.25em;
+  }
+  .section02 .info-01 .text-area1 h4 {
+    font-size: 1.25em;
+  }
+  .section02 .info-02 h5 {
+    font-size: 1.5em;
+  }
+  .section02 .info-02 h4.widen-text {
+    font-size: 1.5em;
+  }
+  .section02 .info-02 .information h3.strength {
+    font-size: 1.5em;
+  }
+  .section02 .info-02 .information .info-inner .damage-info .info-table table {
+    font-size: 1em;
+  }
+  .section02 .info-02 .information .info-inner .damage-info2 table .title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .section02 .info-02 .information .info-inner .damage-info2 table .content {
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  .section02 .info-02 .information .info-inner .bottom-text h4 {
+    font-size: 0.9em;
+  }
+  .section02 .info-02 .information .info-inner .bottom-text p {
+    font-size: 1em;
+  }
+
+  .section03 .container .intro-table table {
+    width: 100%;
+  }
+  .section03 .container .intro-table table .left {
+    font-size: 1em;
+    padding: 20px 10px;
+  }
+  .section03 .container .intro-table table .right {
+    font-size: 1em;
+    padding: 20px 5px;
+  }
+  .section03 .container .main-point .rows-of-circle {
+    margin: 0 20px;
+  }
+  .section03 .container .main-point .rows-of-circle .circle-sp .circle__content {
+    font-size: 1.5em;
+  }
+  .section03 .container .main-point .rows-of-circle .circle-sp p {
+    font-size: 1.25em;
+  }
+  .section03 .container .main-point h4 {
+    font-size: 1.25em;
+  }
+  .section03 .container .main-point h3.middle-text {
+    font-size: 1.25em;
+    line-height: 2em;
+  }
+  .section03 .container .main-point h3.middle-text span {
+    font-size: 0.9em;
+  }
+  .section03 .container .main-point p.bottom-text {
+    font-size: 1em;
+  }
+
+  .section04 .container .intro-table table {
+    width: 100%;
+  }
+  .section04 .container .intro-table table .left {
+    font-size: 1em;
+    padding: 20px 10px;
+  }
+  .section04 .container .intro-table table .right {
+    font-size: 1em;
+    padding: 20px 5px;
+  }
+  .section04 .container .sect04-body {
+    padding: 3vh 0;
+  }
+  .section04 .container .sect04-body h5 {
+    font-size: 1.25em;
+  }
+  .section04 .container .sect04-body h4 {
+    font-size: 1.75em;
+  }
+  .section04 .container .sect04-body h3 {
+    font-size: 1.25em;
+  }
+  .section04 .container .sect04-body .centered-text {
+    max-width: 100%;
+  }
+  .section04 .container-fluid .product-line-up .product-text .text-area .product-name h2.salon {
+    font-size: 1.25em;
+  }
+  .section04 .container-fluid .product-line-up .product-text .text-area .product-name h2.moist {
+    font-size: 1.25em;
+  }
+  .section04 .container-fluid .product-line-up .text-area {
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .section05 .sect06-body h2 {
+    font-size: 1.1em;
+  }
+
+  .section06 .to-links p {
+    font-size: 1.5em;
+  }
+
+  .footer {
+    padding-top: 20px;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer ul li {
+    display: block;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: #303540;
+  }
+}
+@media (max-width: 500px) {
+  .section-product-list .product .product-info h2 {
+    font-size: 0.9em;
+  }
+  .section-product-list .product .product-info h3 {
+    font-size: 0.8em;
+  }
+  .section-product-list .product .product-info h5 {
+    font-size: 1.25em;
+  }
+  .section-product-list .product .product-info h6 {
+    font-size: 1em;
+  }
+  .section-product-list .product .product-info h6 strong {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 430px) {
+  .section-product-list .product .product-info h3 {
+    font-size: 0.75em;
+  }
+  .section-product-list .product .product-info h4 {
+    font-size: 0.7em;
+  }
+  .section-product-list .product .product-info h5 {
+    font-size: 1em;
+  }
+  .section-product-list .product .product-info h6 {
+    font-size: 0.9em;
+  }
+  .section-product-list .product .product-info h6 strong {
+    font-size: 1.25em;
+  }
+
+  .sect-middle1 .asia-inpitari .characteristics p {
+    font-size: 0.8em;
+  }
+  .sect-middle1 .asia-inpitari .characteristics p span {
+    font-size: 1.25em;
+  }
+}
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .br_on_12 {
+    display: none;
+  }
+
+  .br_on_12_1 {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+  .br_on {
+    display: block;
+  }
+
+  .br_on_375 {
+    display: block;
+  }
+
+  .br_on_576 {
+    display: none;
+  }
+
+  .section05 .sect06-body {
+    width: 100%;
+  }
+  .section05 .sect06-body ul.statement li {
+    font-size: 1em;
+  }
+  .section05 .sect06-body h2 {
+    font-size: 1em;
+  }
+
+  .section04 .container .intro-table table .right {
+    font-size: 0.9em;
+    padding: 20px 5px;
+  }
+  .section04 .container .intro-table table .left {
+    font-size: 0.9em;
+    padding: 20px 10px;
+  }
+  .section04 .container .product-line-up .product-text .text-area h2 {
+    font-size: 1.25em;
+  }
+  .section04 .container .product-line-up .product-text .text-area p {
+    font-size: 0.8em;
+  }
+  .section04 .container .product-line-up h5 {
+    font-size: 1em;
+  }
+  .section04 .container .sect04-body h5 {
+    font-size: 0.9em;
+  }
+  .section04 .container .sect04-body h3 {
+    font-size: 1em;
+  }
+  .section04 .container .sect04-body p {
+    font-size: 1.25em;
+  }
+  .section04 .container-fluid .product-line-up h5 span {
+    font-size: 1em;
+  }
+  .section04 .container-fluid .product-line-up p {
+    font-size: 0.9em;
+  }
+
+  .section03 .container .intro-table table .right {
+    font-size: 0.9em;
+    padding: 20px 5px;
+    width: 70%;
+  }
+  .section03 .container .intro-table table .left {
+    font-size: 0.9em;
+    padding: 20px 10px;
+  }
+  .section03 .container .main-point p.bottom-text span {
+    font-size: 0.9em;
+  }
+  .section03 .container .main-point h4 {
+    font-size: 1em;
+  }
+
+  .section02 .info-01 h3.title {
+    font-size: 1.25em;
+  }
+  .section02 .info-01 .text-area1 h4 {
+    font-size: 1em;
+  }
+  .section02 .info-02 h4.widen-text {
+    font-size: 1.25em;
+  }
+  .section02 .info-02 .information h3.strength {
+    font-size: 1.25em;
+  }
+
+  .sect-middle h3 {
+    font-size: 1.25em;
+  }
+
+  .section01 .container h2.top {
+    font-size: 1.3em;
+  }
+  .section01 .container table p.t-a {
+    font-size: 12px;
+  }
+  .section01 .container h5 {
+    font-size: 1em;
+  }
+  .section01 .container .intro-text h4 {
+    font-size: 0.9em;
+  }
+  .section01 .intro-text-out {
+    font-size: 0.9em;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

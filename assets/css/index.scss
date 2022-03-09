@@ -1,0 +1,1771 @@
+$primary-white: #fff;
+$inpitari-gray: #5e5e5e;
+$inpitari-dark: #303540;
+$inpitari-green: #4c9660;
+$inpitari-orange: #bd4728;
+
+
+body {
+  // background: red;
+  background: #fff;
+  color: $inpitari-dark;
+  overflow-x: hidden;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.plus {
+  font-size: 2.5em;
+}
+
+.br_on {
+  display: none;
+}
+
+.br_on_12 {
+  display: none;
+}
+
+.br_on_12_1 {
+  display: none;
+}
+
+.br_on_1024 {
+  display: none;
+}
+
+.br_on_768 {
+  display: none;
+}
+
+.br_on_375 {
+  display: none;
+}
+
+.br_on_576 {
+  display: none;
+}
+
+.navbar {
+  .logo {
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+}
+
+.banner {
+  background-image: url("../images/top.png") no-repeat;
+  // background:yellow;
+  background-position: center;
+  background-size: cover;
+  .container {
+    padding: 10%;
+    color: white;
+    p {
+      font-size: 2em;
+    }
+  }
+}
+
+#main {
+  //    padding:8vh 0;
+}
+
+.section01 {
+  background: #fff9ee;
+  padding: 5vh 0;
+  .container {
+    h2.top {
+      font-size: 2.1em;
+      span {
+        font-size: 1.35em;
+      }
+    }
+    h2.top.intro {
+      line-height: 2em;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+    h2.top.intro-2 {
+      font-size: 1.9em;
+      line-height: 1.5em;
+    }
+    table {
+      margin: 0 auto;
+      font-size: 1.5em;
+      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+        "Yu Mincho", "MS PMincho", serif;
+      .title {
+        padding: 10px;
+        text-decoration: underline;
+      }
+    }
+    h5 {
+      font-size: 2.5em;
+    }
+    .intro-text {
+      margin: 120px auto;
+      h6 {
+        font-size: 1.5em;
+        line-height: 2em;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+        span {
+          font-size: 1.5em;
+          padding: 0 5px;
+        }
+      }
+      h4 {
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+        line-height: 2em;
+        span {
+          font-size: 1.5em;
+        }
+      }
+    }
+    .voices {
+      margin: 6vh auto;
+      h4 {
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+      .stylists {
+        background: whitesmoke;
+        box-shadow: 1px 3px 3px $inpitari-dark;
+        margin: 4vh auto;
+        h5 {
+          font-size: 1.25em;
+          // font-style: italic;
+        }
+        p {
+          font-size: 1.75em;
+          font-weight: bold;
+          // font-style: italic;
+        }
+        blockquote {
+          padding: 10px;
+          background: rgba(66, 66, 66, 0.3);
+        }
+      }
+    }
+  }
+  .intro-text-out {
+    padding: 0 20px;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+      "Yu Mincho", "MS PMincho", serif;
+    span {
+      font-size: 1.5em;
+      color: #bd4929;
+    }
+  }
+}
+
+.sect-middle1 {
+  // background-color: #fff9ee;
+  .asia-inpitari {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    // background: #66A367;
+    h3 {
+      text-align: center;
+      margin-top: 4vh;
+    }
+    h5 {
+      font-size: 1.25em;
+      margin-top: 4vh;
+    }
+    .characteristics {
+      padding: 3vh 5vw;
+      
+
+      p {
+        text-align: center;
+        line-height: 2em;
+        border: 1px solid rgba(241, 241, 241, 0.33);
+        padding: 30px 20px;
+        background:#fff9ee;
+        box-shadow: 1px 3px 2px rgba(110, 110, 110, 0.5);
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+        span {
+          font-weight:bold;
+          font-size: 1.25em;
+          padding:0 5px;
+        }
+      }
+    }
+
+    .box {
+      // width: calc(100% * 2/3);
+      margin:0 auto;
+      // background:blue;
+      
+      h6 {
+        font-weight: bold;
+      }
+      h5 {
+        font-size: 1.25em;
+        margin-top:2vh;
+        text-align: center;
+        margin-bottom:3vh;
+        span {
+          // background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/bacon.svg");
+          // background-position: 0 1.06em;
+          // background-size: 28px 9px;
+          // color: $inpitari-gray;
+          padding-bottom:3px;
+          background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+          background-position: 0 100%;
+          background-size: 100% 3px;
+          background-repeat: repeat-x;
+        }
+      }
+      .underline {
+        background-repeat: repeat-x;
+      }
+      .recommend {
+        p {
+          span {
+            font-size: 1em;
+            padding: 5px 10px;
+            background: black;
+            color: #fff;
+          }
+        }
+        ul {
+          list-style-type: none;
+          padding:0;
+          li {
+            font-size: 1em;
+            display: inline-block;
+            i {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+      .smooth {
+        border: 2px solid #4EA16A;
+        padding:10px 20px;
+      }
+      .moist {
+        border: 2px solid #D46E4C;
+        padding:10px 20px;
+      }
+    }
+
+    .smoothItems,
+    .moistItems {
+      padding: 20px;
+    }
+
+    .smoothItems {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 32%,
+        rgba(75, 155, 104, 1) 40%,
+        rgba(114, 217, 133, 1) 60%,
+        rgba(255, 255, 255, 1) 68%,
+        rgba(255, 255, 255, 1) 100%
+      );
+    }
+    .moistItems {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 32%,
+        rgba(205, 93, 56, 1) 40%,
+        rgba(241, 180, 160, 1) 60%,
+        rgba(255, 255, 255, 1) 68%,
+        rgba(255, 255, 255, 1) 100%
+      );
+    }
+    .asia-products {
+      img {
+        box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+      }
+    }
+
+    .link-to-ifing-beauty {
+      margin: 10vh auto;
+      text-align: center;
+
+      a {
+        padding: 10px 20px;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+        background: #fcecde;
+        color: rgb(66, 66, 66);
+        text-decoration: none;
+        font-size: 1.25em;
+        border-radius: 10px;
+        &:hover {
+          color: #000;
+          font-weight: bold;
+          background: #f1cdae;
+        }
+      }
+    }
+  }
+
+  .instagram {    
+    background: rgb(204,176,176);
+    background: linear-gradient(60deg, rgba(204,176,176,1) 0%, rgba(230,230,230,1) 100%);
+    a {
+      &:hover {
+        opacity: 0.8;
+      } 
+    }
+  }
+}
+
+.sect-middle {
+  padding: 10vh 0;
+  background: #212531;
+  background: linear-gradient(to right bottom, #fff 50%, #f5f5dc 50%);
+  h3 {
+    font-size: 2.5em;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+      "Yu Mincho", "MS PMincho", serif;
+  }
+}
+
+.section02 {
+  padding: 10vh 0;
+  background: #212531;
+  background: linear-gradient(to left bottom, #f3c29d 50%, #fce6d4 50%);
+
+  .intro-table {
+    table {
+      box-shadow: 1px 3px 3px #9a9a9a;
+      margin-bottom: 2vh;
+      .left {
+        // background:#212531;
+        // background: linear-gradient(to right bottom, #F8E4B0 50%, #F4CB60 50%);
+        background: #f4cb60;
+        color: #fff;
+        padding: 20px;
+        font-size: 2em;
+        text-align: center;
+      }
+      .right {
+        background: #fff;
+        font-size: 2em;
+        padding: 20px 80px;
+      }
+    }
+    h3 {
+      line-height: 1.5em;
+      text-align: center;
+      margin: 80px auto 40px;
+      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+        "Yu Mincho", "MS PMincho", serif;
+    }
+  }
+  .info-01 {
+    h3.title {
+      margin: 20px auto 0;
+      font-size: 2em;
+      text-decoration: underline;
+    }
+    .key-ingredient {
+      // background:$primary-white;
+      padding: 20px;
+      margin-top: 60px;
+      .ingredient {
+        padding: 10px;
+        margin: 10px auto 30px;
+        border: 1px solid #d3d3d3;
+        background: white;
+        h3 {
+          font-size: 2em;
+          background: $inpitari-gray;
+          span {
+            // margin:30px auto;
+
+            color: $primary-white;
+            padding: 10px 30px;
+          }
+        }
+        p {
+          font-size: 1.25em;
+        }
+      }
+    }
+    .comp {
+      // background:$primary-white;
+      padding: 20px;
+      margin-bottom: 60px;
+      .ingredient {
+        padding: 10px;
+        margin: 10px auto 30px;
+        border: 1px solid #d3d3d3;
+        background: white;
+        h3 {
+          font-size: 2em;
+          background: $inpitari-gray;
+          background: #f4cb60;
+          span {
+            // margin:30px auto;
+
+            color: $primary-white;
+            padding: 10px 30px;
+          }
+        }
+        p {
+          font-size: 1.25em;
+        }
+      }
+      p.pt {
+        font-size: 1.5em;
+        padding: 0;
+      }
+    }
+    .text-area1 {
+      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+        "Yu Mincho", "MS PMincho", serif;
+      h3 {
+        margin: 40px auto;
+        line-height: 2em;
+        span {
+          font-weight: bold;
+          font-size: 1.25em;
+        }
+      }
+
+      h4 {
+        margin: 20px auto;
+        line-height: 3em;
+        span {
+          font-weight: bold;
+          font-size: 1.25em;
+        }
+        span.main {
+          color: #bd4929;
+        }
+      }
+    }
+  }
+  .info-02 {
+    h5 {
+      font-size: 2em;
+    }
+    h4.widen-text {
+      margin: 80px auto;
+      font-size: 2em;
+    }
+    .information {
+      h3.strength {
+        margin: 100px auto;
+        line-height: 1.5em;
+        color: $inpitari-dark;
+        font-size: 3em;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+      }
+      .info-inner {
+        h4 {
+          color: aqua;
+        }
+        .damage-info {
+          h5 {
+            font-size: 1.5em;
+          }
+          .info-table {
+            margin: 0 auto;
+            table {
+              font-size: 1.5em;
+              width: 100%;
+              // margin:0 auto;
+              // border:1px solid #9a9a9a;
+              .r-head {
+                background: #a8bfaf;
+                color: $primary-white;
+                text-align: center;
+                padding: 5px 10px;
+                border: 1px solid #9a9a9a;
+              }
+              .r-content {
+                background: $primary-white;
+                padding: 5px 20px;
+                border: 1px solid #9a9a9a;
+              }
+            }
+          }
+          .highlight-text {
+            color: $primary-white;
+            width: 100%;
+            margin: 0px 0 50px;
+            background: #a8bfaf;
+            padding: 10px 20px;
+            font-size: 1.5em;
+          }
+        }
+        .damage-info2 {
+          .sect02-table {
+            margin: 0 auto;
+          }
+          table {
+            width: 100%;
+            .title,
+            .content {
+              border: 1px solid #9a9a9a;
+              font-size: 1.25em;
+              text-align: center;
+            }
+            .title {
+              padding: 10px 20px;
+              color: white;
+              font-size: 1.5em;
+              background: rgb(242, 196, 86);
+              // background: linear-gradient(135deg, rgba(255,230,137,1) 0%, rgba(242,197,86,1) 100%);
+            }
+            .content {
+              background: $primary-white;
+              padding: 20px;
+              font-size: 1.5em;
+            }
+          }
+          .highlight-text {
+            background: rgb(242, 197, 86);
+            // background: linear-gradient(135deg, rgba(255,230,137,1) 0%, rgba(242,197,86,1) 100%);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.5em;
+          }
+        }
+        .before-after {
+          margin: 80px auto;
+        }
+        .bottom-text {
+          text-align: center;
+          margin: 80px auto;
+          background: $primary-white;
+          padding: 20px 30px;
+          h4 {
+            font-size: 1.75em;
+            color: $inpitari-dark;
+            margin-top: 40px;
+            line-height: 2em;
+            span {
+              font-size: 1.5em;
+            }
+          }
+          p {
+            font-size: 1.75em;
+            // font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+            span {
+              font-size: 1.5em;
+              font-weight: bold;
+              padding: 0px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.section03 {
+  background: #d2e1db;
+  background: linear-gradient(to right bottom, #ebf5f1 50%, #d2e1db 50%);
+  padding: 6vh 0;
+  .container {
+    .intro-table {
+      table {
+        box-shadow: 1px 3px 3px #9a9a9a;
+        margin-bottom: 2vh;
+        .left {
+          // background: linear-gradient(to right bottom, #F8E4B0 50%, #F4CB60 50%);
+          background: #f4cb60;
+          color: #fff;
+          padding: 20px;
+          font-size: 2em;
+          text-align: center;
+        }
+        .right {
+          background: #fff;
+          font-size: 2em;
+          padding: 20px 80px;
+        }
+      }
+      h3 {
+        margin: 80px auto;
+        line-height: 2em;
+        text-align: center;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+      }
+      .img-area {
+        margin: 20px auto;
+      }
+    }
+    .main-point {
+      margin: 120px auto;
+      .circle-sp {
+        .circle {
+          position: relative;
+          display: block;
+          margin: 2em 0;
+          background-color: transparent;
+          color: #fff;
+          font-weight: bold;
+          text-align: center;
+          &:after {
+            display: block;
+            padding-bottom: 100%;
+            width: 100%;
+            height: 0;
+            border-radius: 50%;
+            background: $inpitari-dark;
+            box-shadow: 1px 3px 3px $inpitari-gray;
+            content: "";
+          }
+        }
+        .circle__inner {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+        .circle__wrapper {
+          display: table;
+          width: 100%;
+          height: 100%;
+        }
+        .circle__content {
+          display: table-cell;
+          padding: 1em;
+          font-size: 2em;
+          vertical-align: middle;
+        }
+        p {
+          font-size: 1.5em;
+          color: $inpitari-dark;
+          // background:
+        }
+      }
+      h4 {
+        font-size: 2em;
+        margin: 80px auto;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+      }
+      h3.middle-text {
+        margin: 80px auto;
+        font-weight: normal;
+        span {
+          font-size: 1.5em;
+          line-height: 2em;
+          margin-right: 10px;
+          padding: 10px 10px;
+          color: $primary-white;
+          background: $inpitari-dark;
+          font-weight: bold;
+        }
+      }
+      p.bottom-text {
+        font-size: 1.5em;
+        line-height: 3em;
+        span {
+          font-weight: bold;
+          font-size: 1.25em;
+          // color:$primary-white;
+          // background:$inpitari-dark;
+          padding: 10px;
+          font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+            "Yu Mincho", "MS PMincho", serif;
+        }
+      }
+    }
+  }
+}
+
+.section04 {
+  background: #f8ddab;
+  // background: #a2d5c1;
+  padding: 80px 0;
+  .container {
+    .intro-table {
+      margin-bottom: 4vh;
+      table {
+        box-shadow: 1px 3px 3px #9a9a9a;
+        margin-bottom: 2vh;
+        .left {
+          // background: linear-gradient(to right bottom, #F8E4B0 50%, #F4CB60 50%);
+          background: #f4cb60;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+          font-size: 2em;
+        }
+        .right {
+          background: #fff;
+          font-size: 2em;
+          padding: 20px 80px;
+        }
+      }
+      h3 {
+        text-align: center;
+        margin-top: 4vh;
+      }
+    }
+    .sect04-body {
+      padding: 5vh 0;
+      h5 {
+        font-size: 1.75em;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+
+        span {
+          font-size: 1.25em;
+          margin: 0 5px;
+          text-shadow: 1px 1px 3px #fff;
+        }
+      }
+      h4 {
+        font-size: 3em;
+      }
+      h3 {
+        font-size: 2em;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+
+        line-height: 2em;
+        span {
+          font-size: 1.25em;
+          padding: 0 5px;
+          text-shadow: 1px 1px 3px #fff;
+        }
+      }
+      .centered-text {
+        margin: 80px auto;
+        max-width: 80%;
+        text-align: center;
+        h2 {
+          span {
+            font-size: 0.8em;
+            padding: 0 5px;
+          }
+          em {
+            font-style: normal;
+            background: $inpitari-dark;
+            color: $primary-white;
+            line-height: 2em;
+          }
+        }
+      }
+      p {
+        font-size: 1.5em;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+          "Yu Mincho", "MS PMincho", serif;
+      }
+    }
+  }
+  .container-fluid {
+    .product-line-up {
+      .salon-area {
+        background: linear-gradient(to right bottom, #d2e1db 50%, #f6f9f8 50%);
+        .image {
+          a {
+            text-align: center;
+            padding:10px 20px;
+            background:#303540;
+            color:#fff;
+          }
+        }
+      }
+
+      .moist-area {
+        background: linear-gradient(to right bottom, #fcdbc2 50%, #fce6d4 50%);
+        .image {
+          a {
+            text-align: center;
+            padding:10px 20px;
+            background:#303540;
+            color:#fff;
+          }
+        }
+      }
+      h5 {
+        font-size: 1.25em;
+        span {
+          font-size: 1.5em;
+          line-height: 2em;
+          background: $inpitari-dark;
+          color: #fff;
+          padding: 10px 20px;
+        }
+      }
+      .product-text {
+        .text-area {
+          // background: white;
+          font-size: 2em;
+          padding: 20px 10px;
+          // box-shadow:1px 3px 6px rgba(25,25,25,0.7);
+
+          .product-name {
+            // background:linear-gradient(to right bottom,$inpitari-dark 50%, #707787 50%);
+            // padding: 10px;
+            h2.salon {
+              font-size: 1.5em;
+              color: #66a367;
+            }
+            h2.moist {
+              font-size: 1.5em;
+              color: #bd4929;
+              // text-shadow: 1px 3px 6px #BD4929;
+            }
+          }
+
+          p {
+            padding: 10px 20px;
+            font-size: 1.25em;
+          }
+          small {
+            font-size:0.9em;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section05 {
+  background: #fff;
+  padding: 5vh 0;
+  .sect06-body {
+    width: 90%;
+    margin: 0 auto;
+    h2 {
+      font-size: 2.5em;
+      line-height: 2em;
+      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+        "Yu Mincho", "MS PMincho", serif;
+
+      // margin-top:20px;
+    }
+  }
+}
+
+.section-product-list {
+  h2.title {
+    font-size: 1.25em;
+    text-decoration: underline;
+  }
+  .product {
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 4vh;
+    border-radius: 10px;
+    background: #faf9f6;
+    .img {
+      position: relative;
+      p {
+        position:absolute;
+        top:0;
+        margin-top:8px;
+        font-size: 1em;        
+        background: rgb(0,0,0);
+        background: linear-gradient(60deg, rgba(0,0,0,1) 0%, rgba(236,236,236,0.5) 100%);
+        color:#fff;
+        padding:5px 10px;
+      }
+    }
+
+
+    .product-info {
+      text-align: center;
+      padding: 20px 10px;
+      h2 {
+        font-size: 1.1em;
+        font-weight: normal;
+      }
+      h3 {
+        font-size: 1.25em;
+      }
+      h4 {
+        font-size: 0.9em;
+        em {
+          font-style: normal;
+        }
+      }
+      h5 {
+        font-size: 1.5em;
+      }
+      .smooth {
+        color: $inpitari-green;
+      }
+      .moist {
+        color: $inpitari-orange;
+      }
+      h6 {
+        font-size: 1.25em;
+        color: rgb(194, 47, 47);
+        span {
+          font-size: 0.8em;
+        }
+        strong {
+          font-size: 1.5em;
+          em {
+            font-style: normal;
+            font-size: 0.8em;
+          }
+        }
+      }
+      a {
+        text-decoration: none;
+        padding:5px 10px;
+        background:$inpitari-gray;
+        color:$primary-white;
+      }
+    }
+  }
+}
+
+.section06 {
+  padding: 8vh 0;
+  background: #ebf5f1;
+  .to-links {
+    p {
+      padding: 40px 20px;
+      font-size: 2em;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    .customer {
+      background: $inpitari-dark;
+    }
+    .salon {
+      background: $inpitari-gray;
+    }
+  }
+}
+
+.footer {
+  padding-top: 20px;
+  font-size: 0.9em;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      padding-right: 10px;
+      a {
+        text-decoration: none;
+        color: $inpitari-dark;
+      }
+    }
+  }
+}
+
+
+.flex-parent {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-item {
+  padding: .5em;
+  background: #efefef;
+  border: 3px solid #333;
+}
+
+@media (max-width: 1200px) {
+  .section03 {
+    .container {
+      .main-point {
+        p.bottom-text {
+          span {
+            font-size: 1.15em;
+          }
+        }
+      }
+    }
+  }
+  .section05 {
+    .sect06-body {
+      h2 {
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .br_on_1024 {
+    display: block;
+  }
+  .section01 {
+    .container {
+      .intro-text {
+        h4 {
+          font-size: 1.7em;
+        }
+      }
+      table {
+        font-size: 1.25em;
+      }
+    }
+  }
+
+  .section02 {
+    .info-02 {
+      .information {
+        .info-inner {
+          .damage-info {
+            .info-table {
+              table {
+                .r-content {
+                  font-size: 0.9em;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+
+  .section06 {
+    .to-links {
+      p {
+        a {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+  .section01 {
+    .container {
+      .voices {
+        blockquote {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .br_on_1024 {
+    display: none;
+  }
+
+  .br_on_768 {
+    display: block;
+  }
+  .section01 {
+    .container {
+      h5 {
+        font-size: 2em;
+      }
+      .intro-text {
+        h6 {
+          span {
+            font-size: 1em;
+          }
+        }
+        h4 {
+          font-size: 1.5em;
+        }
+      }
+      .voices {
+        blockquote {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+
+  .section02 {
+    .info-01 {
+      .key-ingredient {
+        .ingredient {
+          h3 {
+            font-size: 1.24em;
+            padding: 10px 0;
+          }
+          p {
+            font-size: 1em;
+          }
+        }
+      }
+      .comp {
+        .ingredient {
+          h3 {
+            font-size: 1.24em;
+            padding: 10px 0;
+          }
+          p {
+            font-size: 1em;
+          }
+        }
+      }
+    }
+    .info-02 {
+      h4.widen-text {
+        font-size: 1.75em;
+      }
+      .information {
+        h3.strength {
+          font-size: 2.5em;
+        }
+        .info-inner {
+          .bottom-text {
+            h4 {
+              font-size: 1.5em;
+            }
+            p {
+              font-size: 1.25em;
+              span {
+                font-size: 1.5em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section03 {
+    .container {
+      .intro-table {
+        table {
+          .right {
+            padding: 20px;
+          }
+        }
+      }
+      .main-point {
+        .circle-sp {
+          .circle__content {
+            font-size: 1.25em;
+          }
+          p {
+            font-size: 1em;
+          }
+        }
+        h4 {
+          font-size: 1.5em;
+        }
+        h3.middle-text {
+          font-size: 1.4em;
+          line-height: 2em;
+          span {
+            font-size: 1.25em;
+          }
+        }
+        p.bottom-text {
+          span {
+            font-size: 1em;
+          }
+        }
+      }
+    }
+  }
+
+  .section04 {
+    .container {
+      .intro-table {
+        table {
+          .right {
+            padding: 20px;
+          }
+        }
+      }
+      .sect04-body {
+        h3 {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+
+  .section05 {
+    .container {
+      .sect06-body {
+        h2 {
+          font-size: 1.75em;
+        }
+      }
+    }
+  }
+
+  .section06 {
+    padding: 8vh 0;
+    background: #ebf5f1;
+    .to-links {
+      p {
+        padding: 40px 20px;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    .logo {
+      margin-left: 5px;
+      padding-left: 5px;
+    }
+  }
+
+  .br_on_1024 {
+    display: none;
+  }
+
+  .br_on_768 {
+    display: none;
+  }
+
+  .br_on_12 {
+    display: block;
+  }
+
+  .br_on_576 {
+    display: block;
+  }
+
+  .section01 {
+    .container {
+      h2.top {
+        font-size: 1.4em;
+        line-height: 2em;
+        span {
+          font-size: 1.1em;
+        }
+      }
+
+      table {
+        .title {
+          p {
+            font-size: 14px;
+          }
+        }
+        p.t-a {
+          font-size: 14px;
+        }
+      }
+      h5 {
+        font-size: 1.25em;
+      }
+      .intro-text {
+        h6 {
+          font-size: 1em;
+          span {
+            font-size: 1.25em;
+          }
+        }
+        h4 {
+          font-size: 1.1em;
+        }
+      }
+    }
+    .voices {
+      .reverse {
+        div {
+          &:nth-child(1) {
+            order: 2;
+          }
+          &:nth-child(2) {
+            order: 1;
+          }
+        }
+      }
+      blockquote {
+        font-size: 0.9em;
+      }
+      .profile-pic {
+        margin: 20px auto;
+        img {
+          box-shadow: 1px 3px 3px $inpitari-gray;
+        }
+      }
+    }
+    .intro-text-out {
+      font-size: 1em;
+    }
+  }
+
+  .sect-middle {
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+
+  .section02 {
+    .intro-table {
+      table {
+        width: 100%;
+        .left {
+          font-size: 1em;
+          padding: 20px 10px;
+        }
+        .right {
+          padding: 20px 5px;
+          font-size: 1em;
+        }
+      }
+      h3 {
+        font-size: 1.5em;
+      }
+    }
+    .info-01 {
+      h3.title {
+        font-size: 1.75em;
+      }
+      .text-area1 {
+        h3 {
+          font-size: 1.25em;
+        }
+        h4 {
+          font-size: 1.25em;
+        }
+      }
+    }
+    .info-02 {
+      h5 {
+        font-size: 1.5em;
+      }
+      h4.widen-text {
+        font-size: 1.5em;
+      }
+      .information {
+        h3.strength {
+          font-size: 1.5em;
+        }
+        .info-inner {
+          .damage-info {
+            .info-table {
+              table {
+                font-size: 1em;
+              }
+            }
+          }
+          .damage-info2 {
+            table {
+              .title {
+                font-size: 1.2em;
+                font-weight: bold;
+              }
+              .content {
+                font-size: 1.2em;
+                padding: 10px 20px;
+              }
+            }
+          }
+          .bottom-text {
+            h4 {
+              font-size: 0.9em;
+            }
+            p {
+              font-size: 1em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section03 {
+    .container {
+      .intro-table {
+        table {
+          width: 100%;
+          .left {
+            font-size: 1em;
+            padding: 20px 10px;
+          }
+          .right {
+            font-size: 1em;
+            padding: 20px 5px;
+          }
+        }
+      }
+      .main-point {
+        .rows-of-circle {
+          margin: 0 20px;
+          .circle-sp {
+            .circle__content {
+              font-size: 1.5em;
+            }
+            p {
+              font-size: 1.25em;
+            }
+          }
+        }
+        h4 {
+          font-size: 1.25em;
+        }
+        h3.middle-text {
+          font-size: 1.25em;
+          line-height: 2em;
+          span {
+            font-size: 0.9em;
+          }
+        }
+        p.bottom-text {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  .section04 {
+    .container {
+      .intro-table {
+        table {
+          width: 100%;
+          .left {
+            font-size: 1em;
+            padding: 20px 10px;
+          }
+          .right {
+            font-size: 1em;
+            padding: 20px 5px;
+          }
+        }
+      }
+      .sect04-body {
+        padding: 3vh 0;
+        h5 {
+          font-size: 1.25em;
+        }
+        h4 {
+          font-size: 1.75em;
+        }
+        h3 {
+          font-size: 1.25em;
+        }
+        .centered-text {
+          max-width: 100%;
+        }
+      }
+    }
+    .container-fluid {
+      .product-line-up {
+        .product-text {
+          .text-area {
+            .product-name {
+              h2.salon {
+                font-size: 1.25em;
+              }
+              h2.moist {
+                font-size: 1.25em;
+              }
+            }
+          }
+        }
+        .text-area {
+          font-size: 0.9em;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .section05 {
+    .sect06-body {
+      h2 {
+        font-size: 1.1em;
+      }
+    }
+  }
+
+  .section06 {
+    .to-links {
+      p {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 20px;
+    font-size: 0.8em;
+    text-align: center;
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        display: block;
+        margin-right: 10px;
+        padding-right: 10px;
+        a {
+          text-decoration: none;
+          color: $inpitari-dark;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:500px) {
+  .section-product-list {
+    .product {
+      .product-info {
+        h2 {
+          font-size: 0.9em;
+        }
+        h3 {
+          font-size: 0.8em;
+        }
+        h5 {
+          font-size: 1.25em;
+        }
+        h6 {
+          font-size: 1em;
+          strong {
+            font-size: 1.5em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:430px) {
+  .section-product-list {
+    .product {
+      .product-info {
+        h3 {
+          font-size: 0.75em;
+        }
+        h4 {
+          font-size: 0.7em;
+        }
+        h5 {
+          font-size: 1em;
+        }
+        h6 {
+          font-size: 0.9em;
+          strong {
+            font-size: 1.25em;
+          }
+        }
+      }
+    }
+  }
+
+  .sect-middle1 {
+    .asia-inpitari {
+      .characteristics {
+        p {
+          font-size: 0.8em;
+          span {
+            font-size: 1.25em;
+          }
+        }
+      }
+    }
+  }
+}
+
+// iPhone 12 Pro Max
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .br_on_12 {
+    display: none;
+  }
+
+  .br_on_12_1 {
+    display: block;
+  }
+
+  
+
+  
+}
+
+// iPhone 11
+
+// iPhone 6,7,8
+@media (max-width: 375px) {
+  .br_on {
+    display: block;
+  }
+
+  .br_on_375 {
+    display: block;
+  }
+
+  .br_on_576 {
+    display: none;
+  }
+
+  .section05 {
+    .sect06-body {
+      width: 100%;
+      ul.statement {
+        li {
+          font-size: 1em;
+        }
+      }
+      h2 {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .section04 {
+    .container {
+      .intro-table {
+        table {
+          .right {
+            font-size: 0.9em;
+            padding: 20px 5px;
+          }
+          .left {
+            font-size: 0.9em;
+            padding: 20px 10px;
+          }
+        }
+      }
+      .product-line-up {
+        .product-text {
+          .text-area {
+            h2 {
+              font-size: 1.25em;
+            }
+            p {
+              font-size: 0.8em;
+            }
+          }
+        }
+        h5 {
+          font-size: 1em;
+        }
+      }
+      .sect04-body {
+        h5 {
+          font-size: 0.9em;
+        }
+        h3 {
+          font-size: 1em;
+        }
+        p {
+          font-size: 1.25em;
+        }
+      }
+    }
+    .container-fluid {
+      .product-line-up {
+        h5 {
+          span {
+            font-size: 1em;
+          }
+        }
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+  .section03 {
+    .container {
+      .intro-table {
+        table {
+          .right {
+            font-size: 0.9em;
+            padding: 20px 5px;
+            width: 70%;
+          }
+          .left {
+            font-size: 0.9em;
+            padding: 20px 10px;
+          }
+        }
+      }
+      .main-point {
+        p.bottom-text {
+          span {
+            font-size: 0.9em;
+          }
+        }
+        h4 {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  .section02 {
+    .info-01 {
+      h3.title {
+        font-size: 1.25em;
+      }
+      .text-area1 {
+        h4 {
+          font-size: 1em;
+        }
+      }
+    }
+    .info-02 {
+      h4.widen-text {
+        font-size: 1.25em;
+      }
+      .information {
+        h3.strength {
+          font-size: 1.25em;
+        }
+      }
+    }
+  }
+
+  .sect-middle {
+    h3 {
+      font-size: 1.25em;
+    }
+  }
+
+  .section01 {
+    .container {
+      h2.top {
+        font-size: 1.3em;
+      }
+      table {
+        p.t-a {
+          font-size: 12px;
+        }
+      }
+      h5 {
+        font-size: 1em;
+      }
+      .intro-text {
+        h4 {
+          font-size: 0.9em;
+        }
+      }
+    }
+    .intro-text-out {
+      font-size: 0.9em;
+    }
+  }
+}
